@@ -15,6 +15,16 @@
   - [Portraits](#portraits)
   - [Drexel FSAE](#drexel-fsae)
 - [Resume](#resume)
+  - [Professional Experience](#professional-experience)
+    - [Jr Database Developer, WebstaurantStore, Lancaster, PA, April 2024 - September 2024](#jr-database-developer-webstaurantstore-lancaster-pa-april-2024---september-2024)
+  - [Projects](#projects-1)
+    - [Full Stack Developer, Drexel University, Philadelphia, PA, June 2024 - September 2024](#full-stack-developer-drexel-university-philadelphia-pa-june-2024---september-2024)
+    - [Backend Developer, Drexel University, Philadelphia, PA, January 2023 - June 2023](#backend-developer-drexel-university-philadelphia-pa-january-2023---june-2023)
+    - [Website Designer, Drexel Electric Racing, Philadelphia, PA, September 2024 - Present](#website-designer-drexel-electric-racing-philadelphia-pa-september-2024---present)
+  - [Education](#education)
+  - [Languages](#languages)
+  - [Skills](#skills)
+  - [Relevant Coursework](#relevant-coursework)
 
 # Home
 **Title**: Sophia Bartolacci
@@ -93,3 +103,58 @@ Deployment: Configured for Fly.io deployment
 “Here are some photos I've taken of the Drexel Electric Racing Club in action!”
 
 # Resume
+## Professional Experience
+### Jr Database Developer, WebstaurantStore, Lancaster, PA, April 2024 - September 2024
+- Developed table structures and stored procedures for a high-priority project, utilizing PostgreSQL, pgAdmin, and Liquibase in a company-first implementation
+- Co-presented to over 100 team members from various departments, showcasing project progress and key developments
+- Coordinated with multiple teams using Agile methodologies to deploy scripts to production, ensuring smooth integration and minimal disruption to existing systems 
+
+## Projects
+### Full Stack Developer, Drexel University, Philadelphia, PA, June 2024 - September 2024
+ - Collaborated with a team of four to develop a web application over five weeks for managing course quizzes, including professor-led course creation and student enrollment using unique invite codes
+- Created a role-specific UI interface allowing professors to manage courses and post announcements with restricted features for students 
+- Designed and styled key UI elements, including the navbar and dark/light mode toggle icons ensuring a consistent and visually appealing interface across the platform 
+
+### Backend Developer, Drexel University, Philadelphia, PA, January 2023 - June 2023
+- Developed a web-based educational math game geared towards children with engaging levels for addition, subtraction, multiplication, and division
+- Collaborated with a team of three other developers to create backend functionality that generates randomized math problems, validates answers, and tracks scores
+
+### Website Designer, Drexel Electric Racing, Philadelphia, PA, September 2024 - Present
+- Redesigned and updated the Drexel Electric Racing Club’s website using WordPress, ensuring current content and a modern design
+- Enhanced site navigation structure by implementing a user-centered design approach, identifying critical user pain points and streamlined access to essential resources
+
+## Education
+Bachelor of Science in Computer Science
+
+Minors in Data Science and UI/UX
+
+Drexel University | Philadelphia, PA
+- Cumulative GPA: 3.43
+- Graduation Date: June 2027
+
+## Languages
+- Python
+- HTML, CSS, JavaScript
+- Java
+- C
+- Racket
+- Microsoft SQL Server, PostgreSQL
+  
+## Skills
+- Visual Studio Code, IntelliJ IDEA
+- SQL Server Management Studio, pgAdmin
+- Liquibase
+- Azure DevOps
+- GitHub/GitLab
+- Figma
+- WordPress
+- Canva
+- Microsoft Office Suite
+
+## Relevant Coursework
+- Data Structures and Algorithms
+- Web Development
+- Computer Informatics and Design I, II, III
+- Computer Programming I, II
+- Calculus I, II, III
+- Multivariate Calculus
