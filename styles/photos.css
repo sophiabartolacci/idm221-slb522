@@ -1,0 +1,13 @@
+/* TODO: center image */ 
+.photo-categories a img {
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: transform 0.2s ease;
+    background: transparent;
+}
+
+.photo-categories a img:hover {
+    transform: scale(1.05);
+}
+
+/* TODO: add title to cover photos */
