@@ -17,10 +17,16 @@
   
 :root {
     --text-color: #105a4e;
+    --lighter-text-color: rgb(16, 90, 78, .8);
     --nav-background-hover: rgba(16, 90, 78, .3);
     --nav-text-hover: white;
     --text-hover: #578b83;
     --background-image: url(../images/light-mode.JPEG); 
+
+    --acorn-font: 'Acorn', sans-serif;
+    --montserrat-font: 'Montserrat', sans-serif;
+
+    --rhythm: 1.5rem;
 }
   
 /* .dark-mode {
@@ -34,24 +40,27 @@
 
 * {
     color: var(--text-color);
-    font-family: Montserrat;
+    background-attachment: fixed; 
+    background-image: var(--background-image);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    box-sizing: border-box;
+    font-family: var(--montserrat-font);
     list-style: none;
     text-decoration: none;
-    background-image: var(--background-image);
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    background-position: center; 
-    background-size: cover;
 }
 
 h1 {
-    font-family: Acorn;
-    font-size: 45px;
+    font-family: var(--acorn-font);
+    font-size: 2.8125rem;
     text-align: center;
 }
 
 p {
+    color: var(--lighter-text-color);
+    font-size: .875rem;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -60,22 +69,26 @@ footer {
 }
 
 footer h1 {
-    margin: 0px;
+    margin: 0;
 }
 
 header a {
-    font-family: Acorn;
-    font-size: 24px;
+    font-family: var(--acorn-font);
+    font-size: 1.5rem;
     padding-left: 15px;
 }
 header i {
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: right;
 }
 
+nav ul {
+    padding: 0;
+}
+
 nav ul li {
-    text-align: center;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 p a {
@@ -90,14 +103,14 @@ p a:hover {
 
 nav ul li a:hover {
     background: var(--nav-background-hover);
-    color: var(--nav-text-hover);
     border-radius: 30px;
+    color: var(--nav-text-hover);
     padding: 10px 15px;
 }
 
 footer a i {
+    font-size: 1.5625rem;
     margin-top: 8px;
-    font-size: 25px;
     transition: transform 0.2s ease;
 }
 
