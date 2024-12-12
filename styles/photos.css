@@ -1,4 +1,9 @@
 /* TODO: center image */ 
+.photos img {
+    margin: 0 auto;
+    padding: 1rem 1rem;
+}
+
 .photo-categories a img {
     background: transparent;
     border-radius: 20px;

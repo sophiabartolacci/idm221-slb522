@@ -22,17 +22,32 @@
       rel="stylesheet"
       type="text/css"
     />
-    <!-- <link
+    <link
       href="styles/photos.css"
       media="screen"
       rel="stylesheet"
       type="text/css"
-    /> -->
+    />
   </head>
   <body>
     <header>
-      <a href="index.html" class="home">Sophia Bartolacci</a>
-      <i class="bx bx-menu"></i>
+      <!-- <a href="index.html" class="home">Sophia Bartolacci</a>
+      <i class="bx bx-menu"></i> -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Projects</a></li>
+          <li><a href="photos.html">Photography</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h1>Portraits</h1>
@@ -40,84 +55,76 @@
         Here are some portraits I've taken of my friends and family on our fun
         adventures!
       </p>
-      <img
-        src="photos/portraits/1-selena.webp"
-        alt="Selena on a rock overlooking the lake."
-        height="460"
-        width="306"
-      />
-      <img
-        src="photos/portraits/2-selena.webp"
-        alt="Selena looking at the waterfall from behind a tree."
-        height="460"
-        width="306"
-      />
-      <img
-        src="photos/portraits/3-owen.webp"
-        alt="Owen leaning on a metal block."
-        height="460"
-        width="306"
-      />
-      <img
-        src="photos/portraits/4-selena.webp"
-        alt="Selena posing in front of a large rock."
-        height="460"
-        width="306"
-        loading="lazy"
-      />
-      <img
-        src="photos/portraits/5-s&s.webp"
-        alt="Sofia and Selena looking at each other from opposite sides of a tree."
-        height="320"
-        width="480"
-        loading="lazy"
-      />
-      <img
-        src="photos/portraits/6-selena.webp"
-        alt="Selena applying lipstick at the Renaissance Faire."
-        height="460"
-        width="306"
-        loading="lazy"
-      />
-      <img
-        src="photos/portraits/7-crown.webp"
-        alt="the back of Selena's head wearing a crown at the Renaissance Faire"
-        height="460"
-        width="306"
-        loading="lazy"
-      />
-      <img
-        src="photos/portraits/8-selena.webp"
-        alt="Selena dressed as a pirate, holding a chess piece at the Renaissance Faire"
-        height="460"
-        width="306"
-        loading="lazy"
-      />
-      <img
-        src="photos/portraits/9-luna.jpeg"
-        alt="Luna, a tortishell cat"
-        height="460"
-        width="306"
-        loading="lazy"
-      />
-      <img
-        src="photos/portraits/10-luna.jpeg"
-        alt="Luna, a tortishell cat"
-        height="460"
-        width="306"
-        loading="lazy"
-      />
+      <div class="photos">
+        <img
+          src="photos/portraits/1-selena.webp"
+          alt="Selena on a rock overlooking the lake."
+          height="460"
+          width="306"
+        />
+        <img
+          src="photos/portraits/2-selena.webp"
+          alt="Selena looking at the waterfall from behind a tree."
+          height="460"
+          width="306"
+        />
+        <img
+          src="photos/portraits/3-owen.webp"
+          alt="Owen leaning on a metal block."
+          height="460"
+          width="306"
+        />
+        <img
+          src="photos/portraits/4-selena.webp"
+          alt="Selena posing in front of a large rock."
+          height="460"
+          width="306"
+          loading="lazy"
+        />
+        <img
+          src="photos/portraits/5-s&s.webp"
+          alt="Sofia and Selena looking at each other from opposite sides of a tree."
+          height="320"
+          width="480"
+          loading="lazy"
+        />
+        <img
+          src="photos/portraits/6-selena.webp"
+          alt="Selena applying lipstick at the Renaissance Faire."
+          height="460"
+          width="306"
+          loading="lazy"
+        />
+        <img
+          src="photos/portraits/7-crown.webp"
+          alt="the back of Selena's head wearing a crown at the Renaissance Faire"
+          height="460"
+          width="306"
+          loading="lazy"
+        />
+        <img
+          src="photos/portraits/8-selena.webp"
+          alt="Selena dressed as a pirate, holding a chess piece at the Renaissance Faire"
+          height="460"
+          width="306"
+          loading="lazy"
+        />
+        <img
+          src="photos/portraits/9-luna.jpeg"
+          alt="Luna, a tortishell cat"
+          height="460"
+          width="306"
+          loading="lazy"
+        />
+        <img
+          src="photos/portraits/10-luna.jpeg"
+          alt="Luna, a tortishell cat"
+          height="460"
+          width="306"
+          loading="lazy"
+        />
+      </div>
     </main>
-    <nav>
-      <ul>
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="photos.html">Photography</a></li>
-        <li><a href="resume.html">Resume</a></li>
-      </ul>
-    </nav>
     <footer>
       <h1>Contact</h1>
       <a href="https://github.com/sophiabartolacci" target="_blank">
