@@ -1,10 +1,14 @@
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-family: var(--acorn-font);
     font-weight: bold;
     font-size: var(--rhythm);
     margin-bottom: 0;
     margin-top: var(--rhythm);
     padding-left: 0.9375rem;
+}
+
+p {
+    padding: 0 0.9375rem;
 }
 
 section ul {
@@ -27,4 +31,34 @@ h2 + ul {
     margin-top: .35rem;
     padding-left: 1rem;
     }
+}
+
+p + ul {
+    li {
+        margin: 1rem 0;
+        line-height: 1.5rem;
+    }
+}
+
+.experience {
+    font-size: 2rem;
+    padding: 0;
+    text-align: center;
+}
+
+.position, .place {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: .25rem 0;
+    text-align: left;
+}
+
+.position {
+    margin: 1rem 0 0 0;
+}
+
+.time {
+    font-style: italic;
+    margin: .25rem 0;
+    text-align: left;
 }
