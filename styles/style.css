@@ -17,43 +17,154 @@
   
 :root {
     --text-color: #105a4e;
+    --text-hover: #578b83;
     --lighter-text-color: rgb(16, 90, 78, .8);
+
     --nav-background-hover: rgba(16, 90, 78, .3);
     --nav-text-hover: white;
-    --text-hover: #578b83;
-    --background-image: url(../images/light-mode.JPEG); 
 
+    --menu-text-color: #e7d2cb;
+    --menu-background-color: rgb(16, 90, 78);
+    --menu-background-hover-color: rgba(16, 90, 78, .8);
+
+    --background-image: url(../images/light-mode.JPEG); 
     --acorn-font: 'Acorn', sans-serif;
     --montserrat-font: 'Montserrat', sans-serif;
 
     --rhythm: 1.5rem;
+    --nav-height: 48px;
 }
   
-/* .dark-mode {
+.dark-mode {
     --text-color: #e7d2cb;
     --nav-background-hover: rgba(231, 210, 203, 0.3);
     --nav-text-hover: #105a4e;
     --text-hover: #283735;
     --slider-color: #283735;
     --background-image: url(../images/dark-mode.JPEG); 
-} */
+}
 
 * {
     color: var(--text-color);
-    background-attachment: fixed; 
-    background-image: var(--background-image);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    box-sizing: border-box;
     font-family: var(--montserrat-font);
     list-style: none;
     text-decoration: none;
 }
 
+body {
+  background-attachment: fixed; 
+  background-image: var(--background-image);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  box-sizing: border-box;
+}
+
+header {
+    background: var(--nav-background-hover);
+    height: var(--nav-height);
+    width: 100%;
+  
+    position: fixed;
+    left: 0;
+    top: 0;
+  
+    label {
+      cursor: pointer;
+      height: 20px;
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
+      width: 26px;
+      z-index: 1001;
+  
+      span {
+        background-color: var(--text-color);
+        border-radius: 2px;
+        color: var(--menu-text-color);
+        display: block;
+        height: 3px;
+        position: absolute;
+        width: 100%;
+  
+        transform-origin: left;
+  
+        &:nth-child(1) {
+          top: 0;
+        }
+  
+        &:nth-child(2) {
+          top: 8px;
+        }
+  
+        &:nth-child(3) {
+          top: 16px;
+        }
+      }
+    }
+  }
+  
+  nav {
+    background: var(--menu-background-color);
+    height: 100vh;
+    margin-block-start: var(--nav-height);
+    width: 300px;
+  
+    position: fixed;
+    right: -300px;
+    top: 0;
+    z-index: 1000;
+  
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  
+      li {
+        padding: 0;
+  
+        a {
+        background: var(--menu-background-color);
+          color: var(--menu-text-color);
+          display: block;
+          font-family: var(--acorn-font);
+          font-size: 1.25rem;
+          padding-block: 1rem;
+          padding-inline: 1rem;
+          text-decoration: none;
+  
+          &:hover {
+            background-color: var(--menu-text-color);
+            color: var(--menu-background-color);
+          }
+        }
+      }
+    }
+  }
+  
+  /* Show nav when checkbox is checked */
+  .nav-toggle:checked ~ nav {
+    right: 0;
+  }
+  
+  .nav-toggle:checked ~ .nav-toggle-label span:nth-child(1) {
+    transform: rotate(45deg);
+    top: -2px; /* Fix */
+  }
+  
+  .nav-toggle:checked ~ .nav-toggle-label span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .nav-toggle:checked ~ .nav-toggle-label span:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+
 h1 {
     font-family: var(--acorn-font);
     font-size: 2.8125rem;
+    margin: 0;
+    padding-top: 60px;
     text-align: center;
 }
 
@@ -72,7 +183,7 @@ footer h1 {
     margin: 0;
 }
 
-header a {
+/* header a {
     font-family: var(--acorn-font);
     font-size: 1.5rem;
     padding-left: 15px;
@@ -89,7 +200,7 @@ nav ul {
 nav ul li {
     margin-bottom: 20px;
     text-align: center;
-}
+} */
 
 p a {
     font-weight: bold;
@@ -101,16 +212,21 @@ p a:hover {
 
 /* TODO: move nav menu icon to the right */ 
 
-nav ul li a:hover {
+/* nav ul li a:hover {
     background: var(--nav-background-hover);
     border-radius: 30px;
     color: var(--nav-text-hover);
     padding: 10px 15px;
+} */
+
+footer h1 {
+    padding-top: 30px;
 }
 
 footer a i {
     font-size: 1.5625rem;
     margin-top: 8px;
+    padding-bottom: 40px;
     transition: transform 0.2s ease;
 }
 
